@@ -17,7 +17,7 @@ void FUZZ::creatThread()
     std::vector<std::thread> threadPool;
     for (int i = 0; i < 10; i++)
     {
-        threadPool.emplace_back(&FUZZ::Broot, this);
+        threadPool.emplace_back(&FUZZ::Brute, this);
     }
     for (auto &t : threadPool)
     {
@@ -56,7 +56,7 @@ int FUZZ::cheack(std::string pass)
     return 0;
 }
 
-void    FUZZ::Broot()
+void    FUZZ::Brute()
 {
     while (true)
     {

@@ -24,7 +24,7 @@ class FUZZ {
     public :
         FUZZ(std::string name, std::string IP, std::string user);
         void    creatThread();
-        void    Broot();
+        void    Brute();
         int     cheack(std::string pass);
 };
 
