@@ -12,6 +12,7 @@
 #include <curl/curl.h>
 #include <exception>
 
+
 class FUZZ {
     private:
         std::string nameFile;

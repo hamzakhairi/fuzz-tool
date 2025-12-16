@@ -1,8 +1,8 @@
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror
-SRC = ftp.cpp FUZZ.cpp
+SRC = main.cpp FUZZ.cpp
 OBJ = $(SRC:.cpp=.o)
-NAME = ft_ftp
+NAME = ft_fuzz
 INCLUDE = -I./include
 
 all: $(NAME) clean

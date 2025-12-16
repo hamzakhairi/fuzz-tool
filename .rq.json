@@ -1,3 +1,1 @@
-{
-    "option": "FIZZ", "user": "anonymous", "password": "pass", "file": "hamza.txt", "ip": "10.129.3.204", "port": "21"
-}
+{"service": "FTP", "user": "admin", "ip": "10.10.10.12", "port": "21", "wordlist": "/usr/share/wordlists/rockyou.txt"}
